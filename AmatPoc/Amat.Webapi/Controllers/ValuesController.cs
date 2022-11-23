@@ -15,14 +15,14 @@ namespace Amat.Webapi.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
-            _log.Info("hey");
+            _log.Info("Get values");
             return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
         public string Get(int id)
         {
-            _log.Info("hey");
+            _log.Info("Get value by Id");
             return "value";
         }
 

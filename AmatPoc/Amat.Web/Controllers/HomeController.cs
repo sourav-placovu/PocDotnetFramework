@@ -16,23 +16,23 @@ namespace Amat.Web.Controllers
 
         public async Task<ActionResult> Index()
         {
-            var context = new AmatEntities();
-            var data = await context.CatalogItems.ToListAsync();
-            _log.Info("hey");
+            /*var context = new AmatEntities();
+            var data = await context.CatalogItems.ToListAsync();*/
+            _log.Info("Index page");
             return View();
         }
 
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-            _log.Info("hey");
+            _log.Info("About page");
             return View();
         }
 
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-            _log.Info("hey");
+            _log.Info("Contact page");
             return View();
         }
     }
