@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amat.Web", "Amat.Web\Amat.Web.csproj", "{24486636-F355-44B2-9036-9F79C0DA1244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amat.Webapi", "Amat.Webapi\Amat.Webapi.csproj", "{F31A5C56-12A0-4EC3-94E6-F218B3B040B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amat.Core", "Amat.Core\Amat.Core.csproj", "{DD0435DD-DD96-49E1-9AA8-18DE16E9E895}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24486636-F355-44B2-9036-9F79C0DA1244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24486636-F355-44B2-9036-9F79C0DA1244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24486636-F355-44B2-9036-9F79C0DA1244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24486636-F355-44B2-9036-9F79C0DA1244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31A5C56-12A0-4EC3-94E6-F218B3B040B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31A5C56-12A0-4EC3-94E6-F218B3B040B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31A5C56-12A0-4EC3-94E6-F218B3B040B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31A5C56-12A0-4EC3-94E6-F218B3B040B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0435DD-DD96-49E1-9AA8-18DE16E9E895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0435DD-DD96-49E1-9AA8-18DE16E9E895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0435DD-DD96-49E1-9AA8-18DE16E9E895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0435DD-DD96-49E1-9AA8-18DE16E9E895}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CE6075E-F497-4A8D-A4DD-CBCF78D90424}
+	EndGlobalSection
+EndGlobal
